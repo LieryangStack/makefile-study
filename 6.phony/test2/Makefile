@@ -1,0 +1,2 @@
+test2.o:test2.c
+	$(CC) -c $^ -o $@

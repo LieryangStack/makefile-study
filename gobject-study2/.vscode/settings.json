@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "pm-dlist.h": "c",
+    "kb-bibtex.h": "c",
+    "signal-demo.h": "c",
+    "glib-object.h": "c",
+    "gobject.h": "c",
+    "glib.h": "c",
+    "type_traits": "c"
+  }
+}

@@ -1,0 +1,8 @@
+SUBDIRS:= main test1 test2
+.PHONY:subdirs
+subdirs:
+	for dir in $(SUBDIRS);do make -C $$dir;done 
+
+.PHONY:clean
+clean:
+	rm main/*.o test1/*.o test2/*.o
